@@ -1,0 +1,16 @@
+{
+  "name": "couch-parrot",
+  "version": "0.1.0",
+  "description": "A CLI tool that makes it easy to maintain CouchDB continuous replications.",
+  "author": "Steve Krenek <steve@thevolary.com>",
+  "repository": { "type": "git", "url": "git://github.com/theVolary/couch-parrot.git" },
+  "main": "main.js",
+  "dependencies": {
+    "cli": "~0.4",
+    "underscore": "~1.4",
+    "request": "~2.11"
+  },
+  "bin": {
+    "couch-parrot": "./main.js"
+  }
+}
